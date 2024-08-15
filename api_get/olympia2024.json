@@ -1,0 +1,2479 @@
+{
+    "total_count": 19,
+    "results": [
+        {
+            "visibility": "domain",
+            "dataset_id": "paris-2024-zones-de-depose-reprise-pfr-psh",
+            "dataset_uid": "da_vbz8br",
+            "has_records": true,
+            "features": [
+                "geo"
+            ],
+            "attachments": [],
+            "alternative_exports": [],
+            "data_visible": true,
+            "fields": [
+                {
+                    "name": "geo_point_2d",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Geo Point",
+                    "type": "geo_point_2d"
+                },
+                {
+                    "name": "objectid",
+                    "description": null,
+                    "annotations": {},
+                    "label": "OBJECTID",
+                    "type": "text"
+                },
+                {
+                    "name": "nom_site_fr",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Nom_site_fr",
+                    "type": "text"
+                },
+                {
+                    "name": "english_name",
+                    "description": null,
+                    "annotations": {},
+                    "label": "English_name",
+                    "type": "text"
+                },
+                {
+                    "name": "population",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Population",
+                    "type": "text"
+                },
+                {
+                    "name": "nb_places",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Nb_Places",
+                    "type": "text"
+                },
+                {
+                    "name": "venue_code_1",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Venue_code_1",
+                    "type": "text"
+                },
+                {
+                    "name": "venue_code_2",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Venue_code_2",
+                    "type": "text"
+                },
+                {
+                    "name": "venue_code_3",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Venue_code_3",
+                    "type": "text"
+                },
+                {
+                    "name": "venue_code_4",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Venue_code_4",
+                    "type": "text"
+                },
+                {
+                    "name": "periode",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Periode",
+                    "type": "text"
+                },
+                {
+                    "name": "type_venue",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Type_Venue",
+                    "type": "text"
+                },
+                {
+                    "name": "commentaire",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Commentaire",
+                    "type": "text"
+                },
+                {
+                    "name": "globalid",
+                    "description": null,
+                    "annotations": {},
+                    "label": "GlobalID",
+                    "type": "text"
+                },
+                {
+                    "name": "stop_name_french_poi",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Stop_name_french_POI",
+                    "type": "text"
+                },
+                {
+                    "name": "stop_name_english_poi",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Stop_name_english_POI",
+                    "type": "text"
+                }
+            ],
+            "metas": {
+                "default": {
+                    "title": "Paris 2024 - Zones de d\u00e9pose reprise PFR-PSH",
+                    "description": "<p class=\"trailer-half break-word\" style='margin-bottom: 0.75rem; overflow-wrap: break-word; max-width: 100%; color: rgb(76, 76, 76); font-family: \"Avenir Next W01\", \"Avenir Next W00\", \"Avenir Next\", Avenir, \"Helvetica Neue\", sans-serif; font-size: 16px;'><span class=\"js-view if-snippet break-word\" style=\"overflow-wrap: break-word; max-width: 100%; display: inherit;\">Localisation des loadzones PFR-PSH aux abord des sites.</span></p>",
+                    "theme": [
+                        "Transport, Movements"
+                    ],
+                    "keyword": null,
+                    "license": "CC BY 4.0",
+                    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+                    "language": "fr",
+                    "metadata_languages": [
+                        "fr"
+                    ],
+                    "timezone": null,
+                    "modified": "2024-07-30T22:00:41+00:00",
+                    "modified_updates_on_metadata_change": false,
+                    "modified_updates_on_data_change": true,
+                    "data_processed": "2024-07-30T22:00:41+00:00",
+                    "metadata_processed": "2024-07-30T22:00:42.059000+00:00",
+                    "geographic_reference": null,
+                    "geographic_reference_auto": false,
+                    "territory": null,
+                    "geometry_types": [
+                        "Point"
+                    ],
+                    "bbox": {
+                        "type": "Feature",
+                        "geometry": {
+                            "coordinates": [
+                                [
+                                    [
+                                        7.1934763714671135,
+                                        50.609970786608756
+                                    ],
+                                    [
+                                        -1.5266729705035686,
+                                        50.609970786608756
+                                    ],
+                                    [
+                                        -1.5266729705035686,
+                                        43.26117745600641
+                                    ],
+                                    [
+                                        7.1934763714671135,
+                                        43.26117745600641
+                                    ],
+                                    [
+                                        7.1934763714671135,
+                                        50.609970786608756
+                                    ]
+                                ]
+                            ],
+                            "type": "Polygon"
+                        },
+                        "properties": {}
+                    },
+                    "publisher": "Paris 2024",
+                    "references": null,
+                    "records_count": 163,
+                    "attributions": null,
+                    "source_domain": null,
+                    "source_domain_title": null,
+                    "source_domain_address": null,
+                    "source_dataset": null,
+                    "shared_catalog": null,
+                    "federated": false,
+                    "oauth_scope": null,
+                    "parent_domain": null,
+                    "update_frequency": null
+                }
+            }
+        },
+        {
+            "visibility": "domain",
+            "dataset_id": "paris-2024-centres-de-preparation-aux-jeux",
+            "dataset_uid": "da_2gpv7y",
+            "has_records": true,
+            "features": [
+                "analyze"
+            ],
+            "attachments": [],
+            "alternative_exports": [],
+            "data_visible": true,
+            "fields": [
+                {
+                    "name": "id",
+                    "description": null,
+                    "annotations": {},
+                    "label": "id",
+                    "type": "text"
+                },
+                {
+                    "name": "title",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "Nom du centre de pr\u00e9paration",
+                    "type": "text"
+                },
+                {
+                    "name": "lang",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "Langue",
+                    "type": "text"
+                },
+                {
+                    "name": "subtitle",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Commune ou agglom\u00e9ration",
+                    "type": "text"
+                },
+                {
+                    "name": "description",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Description",
+                    "type": "text"
+                },
+                {
+                    "name": "special_features",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Caract\u00e9ristiques",
+                    "type": "text"
+                },
+                {
+                    "name": "known_for",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Connus pour",
+                    "type": "text"
+                },
+                {
+                    "name": "facilities",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Equipements",
+                    "type": "text"
+                },
+                {
+                    "name": "altitude",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Altitude",
+                    "type": "text"
+                },
+                {
+                    "name": "picture",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Photo",
+                    "type": "text"
+                },
+                {
+                    "name": "gallery",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Gallerie photos",
+                    "type": "text"
+                },
+                {
+                    "name": "meteo",
+                    "description": null,
+                    "annotations": {},
+                    "label": "M\u00e9t\u00e9o",
+                    "type": "text"
+                },
+                {
+                    "name": "geo_area",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Zone g\u00e9ographique",
+                    "type": "text"
+                },
+                {
+                    "name": "location",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Localisation",
+                    "type": "text"
+                }
+            ],
+            "metas": {
+                "default": {
+                    "title": "Paris 2024 - Centres de pr\u00e9paration aux Jeux",
+                    "description": "<span style=\"font-family: Paris2024;\">Ce jeu de donn\u00e9es recense les Centres de Pr\u00e9paration aux Jeux de Paris 2024 (nom, description, adresse, photo).</span>",
+                    "theme": [
+                        "Sports, Leisure"
+                    ],
+                    "keyword": null,
+                    "license": "Licence Ouverte v2.0",
+                    "license_url": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
+                    "language": "fr",
+                    "metadata_languages": [
+                        "fr"
+                    ],
+                    "timezone": null,
+                    "modified": "2024-02-05T10:50:45+00:00",
+                    "modified_updates_on_metadata_change": false,
+                    "modified_updates_on_data_change": false,
+                    "data_processed": "2024-02-26T10:53:15+00:00",
+                    "metadata_processed": "2024-04-30T14:54:47.360000+00:00",
+                    "geographic_reference": [
+                        "world_fr"
+                    ],
+                    "geographic_reference_auto": true,
+                    "territory": [
+                        "France"
+                    ],
+                    "geometry_types": null,
+                    "bbox": null,
+                    "publisher": "Paris 2024",
+                    "references": "https://prepare.paris2024.org/",
+                    "records_count": 3000,
+                    "attributions": null,
+                    "source_domain": null,
+                    "source_domain_title": null,
+                    "source_domain_address": null,
+                    "source_dataset": null,
+                    "shared_catalog": null,
+                    "federated": false,
+                    "oauth_scope": null,
+                    "parent_domain": null,
+                    "update_frequency": null
+                }
+            }
+        },
+        {
+            "visibility": "domain",
+            "dataset_id": "paris-2024-evenements-olympiade-culturelle",
+            "dataset_uid": "da_hodfdw",
+            "has_records": true,
+            "features": [
+                "analyze",
+                "timeserie",
+                "geo"
+            ],
+            "attachments": [],
+            "alternative_exports": [],
+            "data_visible": true,
+            "fields": [
+                {
+                    "name": "project_oc_r_id",
+                    "description": null,
+                    "annotations": {},
+                    "label": "project_id",
+                    "type": "text"
+                },
+                {
+                    "name": "id",
+                    "description": null,
+                    "annotations": {
+                        "id": true
+                    },
+                    "label": "event_id",
+                    "type": "text"
+                },
+                {
+                    "name": "name",
+                    "description": null,
+                    "annotations": {},
+                    "label": "title",
+                    "type": "text"
+                },
+                {
+                    "name": "nom_de_la_structure_c",
+                    "description": null,
+                    "annotations": {
+                        "facet": true,
+                        "disjunctive": true
+                    },
+                    "label": "organization_name",
+                    "type": "text"
+                },
+                {
+                    "name": "presentation_synthetique_du_projet_c",
+                    "description": null,
+                    "annotations": {},
+                    "label": "description",
+                    "type": "text"
+                },
+                {
+                    "name": "date_de_debut_c",
+                    "description": null,
+                    "annotations": {
+                        "facet": true,
+                        "timerangeFilter": true
+                    },
+                    "label": "starting_date",
+                    "type": "datetime"
+                },
+                {
+                    "name": "date_de_fin_c",
+                    "description": null,
+                    "annotations": {
+                        "facet": true,
+                        "timerangeFilter": true
+                    },
+                    "label": "ending_date",
+                    "type": "datetime"
+                },
+                {
+                    "name": "public_adresse_c",
+                    "description": null,
+                    "annotations": {
+                        "facet": true,
+                        "disjunctive": true
+                    },
+                    "label": "public",
+                    "type": "text"
+                },
+                {
+                    "name": "lieu_de_presentation_c",
+                    "description": null,
+                    "annotations": {},
+                    "label": "location",
+                    "type": "text"
+                },
+                {
+                    "name": "adresse_c",
+                    "description": null,
+                    "annotations": {},
+                    "label": "address",
+                    "type": "text"
+                },
+                {
+                    "name": "longitude_c",
+                    "description": null,
+                    "annotations": {},
+                    "label": "longitude",
+                    "type": "text"
+                },
+                {
+                    "name": "latitude_c",
+                    "description": null,
+                    "annotations": {},
+                    "label": "latitude",
+                    "type": "text"
+                },
+                {
+                    "name": "geolocation",
+                    "description": null,
+                    "annotations": {},
+                    "label": "geolocation",
+                    "type": "geo_point_2d"
+                },
+                {
+                    "name": "departement",
+                    "description": null,
+                    "annotations": {
+                        "facetsort": "-count",
+                        "facet": true,
+                        "disjunctive": true
+                    },
+                    "label": "departement",
+                    "type": "int"
+                },
+                {
+                    "name": "commune",
+                    "description": null,
+                    "annotations": {
+                        "facet": true,
+                        "disjunctive": true
+                    },
+                    "label": "commune",
+                    "type": "text"
+                },
+                {
+                    "name": "tarif_du_projet_c",
+                    "description": null,
+                    "annotations": {
+                        "facet": true,
+                        "disjunctive": true
+                    },
+                    "label": "tarif",
+                    "type": "text"
+                },
+                {
+                    "name": "veuillez_preciser_les_tarifs_du_projet_c",
+                    "description": null,
+                    "annotations": {},
+                    "label": "price_description",
+                    "type": "text"
+                },
+                {
+                    "name": "instagram_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "instagram_link",
+                    "type": "text"
+                },
+                {
+                    "name": "facebook_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "facebook_link",
+                    "type": "text"
+                },
+                {
+                    "name": "twitter_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "twitter_link",
+                    "type": "text"
+                },
+                {
+                    "name": "discipline_principale_du_projet_c",
+                    "description": null,
+                    "annotations": {
+                        "facet": true,
+                        "multivalued": ",",
+                        "disjunctive": true
+                    },
+                    "label": "Disciplines",
+                    "type": "text"
+                }
+            ],
+            "metas": {
+                "default": {
+                    "title": "Paris 2024 - \u00c9v\u00e9nements Olympiade Culturelle",
+                    "description": "<p class=\"MsoNormal\">Ce jeu de donn\u00e9es recense les projets et \u00e9v\u00e9nements de l'Olympiade Culturelle (titre, organisateur, description, dates, localisation, prix,\nliens, disciplines).<o:p></o:p></p>",
+                    "theme": [
+                        "Culture, Heritage",
+                        "Sports, Leisure"
+                    ],
+                    "keyword": [
+                        "PARIS2024",
+                        "Olympiade Culturelle"
+                    ],
+                    "license": "Licence Ouverte v2.0",
+                    "license_url": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
+                    "language": "fr",
+                    "metadata_languages": [
+                        "fr"
+                    ],
+                    "timezone": "Europe/Paris",
+                    "modified": "2024-07-30T19:15:29+00:00",
+                    "modified_updates_on_metadata_change": true,
+                    "modified_updates_on_data_change": true,
+                    "data_processed": "2024-07-30T19:15:29+00:00",
+                    "metadata_processed": "2024-07-30T19:15:29.950000+00:00",
+                    "geographic_reference": [
+                        "world"
+                    ],
+                    "geographic_reference_auto": true,
+                    "territory": [
+                        "World"
+                    ],
+                    "geometry_types": [
+                        "Point"
+                    ],
+                    "bbox": {
+                        "type": "Feature",
+                        "geometry": {
+                            "coordinates": [
+                                [
+                                    [
+                                        166.46718816831708,
+                                        59.436575789004564
+                                    ],
+                                    [
+                                        -149.61582127958536,
+                                        59.436575789004564
+                                    ],
+                                    [
+                                        -149.61582127958536,
+                                        -22.22839767113328
+                                    ],
+                                    [
+                                        166.46718816831708,
+                                        -22.22839767113328
+                                    ],
+                                    [
+                                        166.46718816831708,
+                                        59.436575789004564
+                                    ]
+                                ]
+                            ],
+                            "type": "Polygon"
+                        },
+                        "properties": {}
+                    },
+                    "publisher": "Paris 2024",
+                    "references": "https://olympiade-culturelle.paris2024.org/",
+                    "records_count": 4262,
+                    "attributions": [
+                        "https://data.paris2024.org/",
+                        "INSEE IGN NaturalEarth DGGL",
+                        "INSEE IGN NaturalEarth DGCL - BANATIC MEFR MAA"
+                    ],
+                    "source_domain": null,
+                    "source_domain_title": null,
+                    "source_domain_address": null,
+                    "source_dataset": null,
+                    "shared_catalog": null,
+                    "federated": false,
+                    "oauth_scope": null,
+                    "parent_domain": null,
+                    "update_frequency": null
+                }
+            }
+        },
+        {
+            "visibility": "domain",
+            "dataset_id": "idfm-parkings-relais-paris-2024-en",
+            "dataset_uid": "da_tmpfux",
+            "has_records": true,
+            "features": [
+                "analyze",
+                "timeserie",
+                "geo",
+                "custom_view"
+            ],
+            "attachments": [],
+            "alternative_exports": [],
+            "data_visible": true,
+            "fields": [
+                {
+                    "name": "geo_point",
+                    "description": null,
+                    "annotations": {},
+                    "label": "\ufeffGeo Point",
+                    "type": "geo_point_2d"
+                },
+                {
+                    "name": "geo_shape",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Geo Shape",
+                    "type": "geo_shape"
+                },
+                {
+                    "name": "id_pr",
+                    "description": null,
+                    "annotations": {},
+                    "label": "ID_PR",
+                    "type": "text"
+                },
+                {
+                    "name": "nom_medias_idfm",
+                    "description": null,
+                    "annotations": {},
+                    "label": "NOM_MEDIAS_IDFM",
+                    "type": "text"
+                },
+                {
+                    "name": "nom_pr",
+                    "description": null,
+                    "annotations": {},
+                    "label": "NOM_PR",
+                    "type": "text"
+                },
+                {
+                    "name": "adresses",
+                    "description": null,
+                    "annotations": {},
+                    "label": "ADRESSES",
+                    "type": "text"
+                },
+                {
+                    "name": "id_gares_g",
+                    "description": null,
+                    "annotations": {},
+                    "label": "ID_GARES_G",
+                    "type": "int"
+                },
+                {
+                    "name": "nom_gare",
+                    "description": null,
+                    "annotations": {},
+                    "label": "NOM_GARE",
+                    "type": "text"
+                },
+                {
+                    "name": "id_ref_zdc",
+                    "description": null,
+                    "annotations": {},
+                    "label": "ID_REF_ZdC",
+                    "type": "int"
+                },
+                {
+                    "name": "nom_zdc",
+                    "description": null,
+                    "annotations": {},
+                    "label": "NOM_ZdC",
+                    "type": "text"
+                },
+                {
+                    "name": "tc",
+                    "description": null,
+                    "annotations": {
+                        "facet": true,
+                        "multivalued": ","
+                    },
+                    "label": "TRANSPORT EN COMMUN",
+                    "type": "text"
+                },
+                {
+                    "name": "etat_pr",
+                    "description": null,
+                    "annotations": {},
+                    "label": "ETAT_PR",
+                    "type": "text"
+                },
+                {
+                    "name": "config_pr",
+                    "description": null,
+                    "annotations": {},
+                    "label": "CONFIG_PR",
+                    "type": "text"
+                },
+                {
+                    "name": "mes_date",
+                    "description": null,
+                    "annotations": {},
+                    "label": "MES_DATE",
+                    "type": "date"
+                },
+                {
+                    "name": "exploit_pr",
+                    "description": null,
+                    "annotations": {},
+                    "label": "EXPLOIT_PR",
+                    "type": "text"
+                },
+                {
+                    "name": "pl_pr",
+                    "description": null,
+                    "annotations": {},
+                    "label": "PL_PR",
+                    "type": "int"
+                },
+                {
+                    "name": "pl_lda",
+                    "description": null,
+                    "annotations": {},
+                    "label": "PL_LDA",
+                    "type": "text"
+                },
+                {
+                    "name": "pl_vp",
+                    "description": null,
+                    "annotations": {},
+                    "label": "PL_VP",
+                    "type": "int"
+                },
+                {
+                    "name": "pl_pmr",
+                    "description": null,
+                    "annotations": {},
+                    "label": "PL_PMR",
+                    "type": "text"
+                },
+                {
+                    "name": "pl_cov",
+                    "description": null,
+                    "annotations": {},
+                    "label": "PL_COV",
+                    "type": "int"
+                },
+                {
+                    "name": "pl_ap",
+                    "description": null,
+                    "annotations": {},
+                    "label": "PL_AP",
+                    "type": "int"
+                },
+                {
+                    "name": "pl_elec",
+                    "description": null,
+                    "annotations": {},
+                    "label": "PL_ELEC",
+                    "type": "int"
+                },
+                {
+                    "name": "pl_elec_pmr",
+                    "description": null,
+                    "annotations": {},
+                    "label": "PL_ELEC_PMR",
+                    "type": "int"
+                },
+                {
+                    "name": "pl_2rm",
+                    "description": null,
+                    "annotations": {},
+                    "label": "PL_2RM",
+                    "type": "int"
+                },
+                {
+                    "name": "pl_velo",
+                    "description": null,
+                    "annotations": {},
+                    "label": "PL_VELO",
+                    "type": "int"
+                },
+                {
+                    "name": "label_pr",
+                    "description": null,
+                    "annotations": {},
+                    "label": "LABEL_PR",
+                    "type": "text"
+                },
+                {
+                    "name": "tarif_type",
+                    "description": null,
+                    "annotations": {},
+                    "label": "TARIF_TYPE",
+                    "type": "text"
+                },
+                {
+                    "name": "insee_com",
+                    "description": null,
+                    "annotations": {},
+                    "label": "INSEE_COM",
+                    "type": "int"
+                },
+                {
+                    "name": "nom_com",
+                    "description": null,
+                    "annotations": {},
+                    "label": "NOM_COM",
+                    "type": "text"
+                },
+                {
+                    "name": "departement",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "DEPARTEMENT",
+                    "type": "text"
+                },
+                {
+                    "name": "x_l93",
+                    "description": null,
+                    "annotations": {},
+                    "label": "X_L93",
+                    "type": "double"
+                },
+                {
+                    "name": "y_l93",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Y_L93",
+                    "type": "double"
+                },
+                {
+                    "name": "pr_evenement",
+                    "description": null,
+                    "annotations": {},
+                    "label": "PR_evenement",
+                    "type": "text"
+                },
+                {
+                    "name": "lieu_evenement",
+                    "description": null,
+                    "annotations": {
+                        "facet": true,
+                        "multivalued": ","
+                    },
+                    "label": "LIEU_EVENEMENT",
+                    "type": "text"
+                },
+                {
+                    "name": "autoroutes",
+                    "description": null,
+                    "annotations": {
+                        "facet": true,
+                        "multivalued": ","
+                    },
+                    "label": "AUTOROUTES",
+                    "type": "text"
+                },
+                {
+                    "name": "url_en_savoir",
+                    "description": null,
+                    "annotations": {},
+                    "label": "URL_EN_SAVOIR+",
+                    "type": "text"
+                },
+                {
+                    "name": "reservation",
+                    "description": null,
+                    "annotations": {},
+                    "label": "RESERVATION",
+                    "type": "text"
+                },
+                {
+                    "name": "res",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Res",
+                    "type": "text"
+                }
+            ],
+            "metas": {
+                "default": {
+                    "title": "[IDFM] - Parkings relais Paris 2024 (EN)",
+                    "description": null,
+                    "theme": [
+                        "IDFM"
+                    ],
+                    "keyword": null,
+                    "license": null,
+                    "license_url": null,
+                    "language": "fr",
+                    "metadata_languages": [
+                        "fr"
+                    ],
+                    "timezone": null,
+                    "modified": "2024-07-30T22:00:49+00:00",
+                    "modified_updates_on_metadata_change": true,
+                    "modified_updates_on_data_change": true,
+                    "data_processed": "2024-07-30T22:00:49+00:00",
+                    "metadata_processed": "2024-07-30T22:00:49.702000+00:00",
+                    "geographic_reference": null,
+                    "geographic_reference_auto": false,
+                    "territory": null,
+                    "geometry_types": [
+                        "Point"
+                    ],
+                    "bbox": null,
+                    "publisher": null,
+                    "references": null,
+                    "records_count": 46,
+                    "attributions": null,
+                    "source_domain": null,
+                    "source_domain_title": null,
+                    "source_domain_address": null,
+                    "source_dataset": null,
+                    "shared_catalog": null,
+                    "federated": false,
+                    "oauth_scope": null,
+                    "parent_domain": null,
+                    "update_frequency": null
+                }
+            }
+        },
+        {
+            "visibility": "domain",
+            "dataset_id": "paris-2024-psa-snm",
+            "dataset_uid": "da_mjb55e",
+            "has_records": true,
+            "features": [
+                "analyze",
+                "geo"
+            ],
+            "attachments": [],
+            "alternative_exports": [],
+            "data_visible": true,
+            "fields": [
+                {
+                    "name": "code_site",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Code_site",
+                    "type": "text"
+                },
+                {
+                    "name": "psa_name",
+                    "description": null,
+                    "annotations": {},
+                    "label": "psa-name",
+                    "type": "text"
+                },
+                {
+                    "name": "entrance_name",
+                    "description": null,
+                    "annotations": {},
+                    "label": "entrance-name",
+                    "type": "text"
+                },
+                {
+                    "name": "lat",
+                    "description": null,
+                    "annotations": {},
+                    "label": "lat",
+                    "type": "double"
+                },
+                {
+                    "name": "lon",
+                    "description": null,
+                    "annotations": {},
+                    "label": "lon",
+                    "type": "double"
+                },
+                {
+                    "name": "point_geo",
+                    "description": null,
+                    "annotations": {
+                        "facetsort": "-count"
+                    },
+                    "label": "point_geo",
+                    "type": "geo_point_2d"
+                }
+            ],
+            "metas": {
+                "default": {
+                    "title": "Paris 2024 - PSA spectateurs",
+                    "description": "<p><span style=\"font-family: inherit; font-size: 0.875rem;\">Ce jeu de donn\u00e9es recense les PSA (Pedestrian Screening Area) et les entr\u00e9es spectateurs associ\u00e9s pour chaque site de comp\u00e9tition et le Parc des Champions.<br><br>OG2024 = Jeux Olympiques<br>PG2024 = Jeux Paralympiques</span></p><p><span style=\"font-family: inherit; font-size: 0.875rem;\">Derni\u00e8re mise \u00e0 jour : 20/07/2024\u00a0</span><span style=\"font-family: inherit; font-size: 0.875rem;\"><br></span></p>",
+                    "theme": [
+                        "Buildings, Venues, Sites",
+                        "Transport, Movements"
+                    ],
+                    "keyword": null,
+                    "license": "Licence Ouverte v2.0",
+                    "license_url": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
+                    "language": "fr",
+                    "metadata_languages": [
+                        "fr"
+                    ],
+                    "timezone": null,
+                    "modified": "2024-07-20T16:29:36+00:00",
+                    "modified_updates_on_metadata_change": false,
+                    "modified_updates_on_data_change": true,
+                    "data_processed": "2024-07-20T16:29:36+00:00",
+                    "metadata_processed": "2024-07-31T00:00:30.542000+00:00",
+                    "geographic_reference": null,
+                    "geographic_reference_auto": false,
+                    "territory": null,
+                    "geometry_types": [
+                        "Point"
+                    ],
+                    "bbox": {
+                        "type": "Feature",
+                        "geometry": {
+                            "coordinates": [
+                                [
+                                    [
+                                        7.194043407216668,
+                                        50.61324199195951
+                                    ],
+                                    [
+                                        -149.25165189430118,
+                                        50.61324199195951
+                                    ],
+                                    [
+                                        -149.25165189430118,
+                                        -17.85669533070177
+                                    ],
+                                    [
+                                        7.194043407216668,
+                                        -17.85669533070177
+                                    ],
+                                    [
+                                        7.194043407216668,
+                                        50.61324199195951
+                                    ]
+                                ]
+                            ],
+                            "type": "Polygon"
+                        },
+                        "properties": {}
+                    },
+                    "publisher": "Paris 2024",
+                    "references": null,
+                    "records_count": 203,
+                    "attributions": null,
+                    "source_domain": null,
+                    "source_domain_title": null,
+                    "source_domain_address": null,
+                    "source_dataset": null,
+                    "shared_catalog": null,
+                    "federated": false,
+                    "oauth_scope": null,
+                    "parent_domain": null,
+                    "update_frequency": null
+                }
+            }
+        },
+        {
+            "visibility": "domain",
+            "dataset_id": "games_map_road_events_fr",
+            "dataset_uid": "da_36qfq7",
+            "has_records": true,
+            "features": [
+                "timeserie",
+                "geo",
+                "analyze"
+            ],
+            "attachments": [],
+            "alternative_exports": [],
+            "data_visible": true,
+            "fields": [
+                {
+                    "name": "road_event_id",
+                    "description": null,
+                    "annotations": {},
+                    "label": "\ufeffroad_event_id",
+                    "type": "text"
+                },
+                {
+                    "name": "road_event_slug",
+                    "description": null,
+                    "annotations": {},
+                    "label": "road_event_slug",
+                    "type": "text"
+                },
+                {
+                    "name": "title",
+                    "description": null,
+                    "annotations": {},
+                    "label": "title",
+                    "type": "text"
+                },
+                {
+                    "name": "category_id",
+                    "description": null,
+                    "annotations": {},
+                    "label": "category_id",
+                    "type": "text"
+                },
+                {
+                    "name": "category_code",
+                    "description": null,
+                    "annotations": {},
+                    "label": "category_code",
+                    "type": "text"
+                },
+                {
+                    "name": "subcategory_code",
+                    "description": null,
+                    "annotations": {},
+                    "label": "subcategory_code",
+                    "type": "text"
+                },
+                {
+                    "name": "photo_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "photo_link",
+                    "type": "text"
+                },
+                {
+                    "name": "description",
+                    "description": null,
+                    "annotations": {},
+                    "label": "description",
+                    "type": "text"
+                },
+                {
+                    "name": "starting_date",
+                    "description": null,
+                    "annotations": {
+                        "facetsort": "-count",
+                        "timeserie_precision": "hour"
+                    },
+                    "label": "starting_date",
+                    "type": "datetime"
+                },
+                {
+                    "name": "ending_date",
+                    "description": null,
+                    "annotations": {
+                        "facetsort": "-count",
+                        "timeserie_precision": "hour"
+                    },
+                    "label": "ending_date",
+                    "type": "datetime"
+                },
+                {
+                    "name": "opening_times",
+                    "description": null,
+                    "annotations": {},
+                    "label": "opening_times",
+                    "type": "text"
+                },
+                {
+                    "name": "location",
+                    "description": null,
+                    "annotations": {},
+                    "label": "location",
+                    "type": "text"
+                },
+                {
+                    "name": "address",
+                    "description": null,
+                    "annotations": {},
+                    "label": "address",
+                    "type": "text"
+                },
+                {
+                    "name": "longitude",
+                    "description": null,
+                    "annotations": {},
+                    "label": "longitude",
+                    "type": "double"
+                },
+                {
+                    "name": "latitude",
+                    "description": null,
+                    "annotations": {},
+                    "label": "latitude",
+                    "type": "double"
+                },
+                {
+                    "name": "external_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "external_link",
+                    "type": "text"
+                },
+                {
+                    "name": "ticketing_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "ticketing_link",
+                    "type": "text"
+                },
+                {
+                    "name": "competition",
+                    "description": null,
+                    "annotations": {},
+                    "label": "competition",
+                    "type": "text"
+                },
+                {
+                    "name": "stroke",
+                    "description": null,
+                    "annotations": {},
+                    "label": "stroke",
+                    "type": "text"
+                },
+                {
+                    "name": "stroke_width",
+                    "description": null,
+                    "annotations": {
+                        "facetsort": "-count"
+                    },
+                    "label": "stroke-width",
+                    "type": "double"
+                },
+                {
+                    "name": "stroke_opacity",
+                    "description": null,
+                    "annotations": {},
+                    "label": "stroke-opacity",
+                    "type": "double"
+                },
+                {
+                    "name": "geo_shape",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Geo Shape",
+                    "type": "geo_shape"
+                },
+                {
+                    "name": "end_geolocation",
+                    "description": null,
+                    "annotations": {},
+                    "label": "end_geolocation",
+                    "type": "geo_point_2d"
+                },
+                {
+                    "name": "geolocation",
+                    "description": null,
+                    "annotations": {},
+                    "label": "geolocation",
+                    "type": "geo_point_2d"
+                },
+                {
+                    "name": "geo_center",
+                    "description": null,
+                    "annotations": {},
+                    "label": "geo_center",
+                    "type": "geo_point_2d"
+                }
+            ],
+            "metas": {
+                "default": {
+                    "title": "GEODATA - Road Events (FR)",
+                    "description": "<p style=\"font-family: sans-serif;\"><span style=\"font-weight: bolder;\">Geodata - Liste des road events de Paris 2024 (FR)</span><br></p>",
+                    "theme": [
+                        "Geodata"
+                    ],
+                    "keyword": null,
+                    "license": "CC BY-NC-SA 4.0",
+                    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+                    "language": "fr",
+                    "metadata_languages": [
+                        "fr"
+                    ],
+                    "timezone": null,
+                    "modified": "2024-07-30T22:10:09+00:00",
+                    "modified_updates_on_metadata_change": true,
+                    "modified_updates_on_data_change": true,
+                    "data_processed": "2024-07-30T22:10:09+00:00",
+                    "metadata_processed": "2024-07-30T22:10:09.151000+00:00",
+                    "geographic_reference": null,
+                    "geographic_reference_auto": false,
+                    "territory": null,
+                    "geometry_types": [
+                        "LineString"
+                    ],
+                    "bbox": {
+                        "type": "Feature",
+                        "geometry": {
+                            "coordinates": [
+                                [
+                                    [
+                                        55.72092102840543,
+                                        51.049784501083195
+                                    ],
+                                    [
+                                        -149.61447849869728,
+                                        51.049784501083195
+                                    ],
+                                    [
+                                        -149.61447849869728,
+                                        -21.389075126498938
+                                    ],
+                                    [
+                                        55.72092102840543,
+                                        -21.389075126498938
+                                    ],
+                                    [
+                                        55.72092102840543,
+                                        51.049784501083195
+                                    ]
+                                ]
+                            ],
+                            "type": "Polygon"
+                        },
+                        "properties": {}
+                    },
+                    "publisher": "Paris2024-DIG",
+                    "references": null,
+                    "records_count": 612,
+                    "attributions": null,
+                    "source_domain": null,
+                    "source_domain_title": null,
+                    "source_domain_address": null,
+                    "source_dataset": null,
+                    "shared_catalog": null,
+                    "federated": false,
+                    "oauth_scope": null,
+                    "parent_domain": null,
+                    "update_frequency": null
+                }
+            }
+        },
+        {
+            "visibility": "domain",
+            "dataset_id": "idfm-traces-du-reseau-ferre-idf",
+            "dataset_uid": "da_oqtdo4",
+            "has_records": true,
+            "features": [
+                "analyze",
+                "timeserie",
+                "geo"
+            ],
+            "attachments": [],
+            "alternative_exports": [],
+            "data_visible": true,
+            "fields": [
+                {
+                    "name": "geo_point",
+                    "description": null,
+                    "annotations": {},
+                    "label": "\ufeffGeo Point",
+                    "type": "geo_point_2d"
+                },
+                {
+                    "name": "geo_shape",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Geo Shape",
+                    "type": "geo_shape"
+                },
+                {
+                    "name": "idrefliga",
+                    "description": null,
+                    "annotations": {},
+                    "label": "idrefliga",
+                    "type": "text"
+                },
+                {
+                    "name": "idrefligc",
+                    "description": null,
+                    "annotations": {},
+                    "label": "idrefligc",
+                    "type": "text"
+                },
+                {
+                    "name": "res_com",
+                    "description": null,
+                    "annotations": {},
+                    "label": "res_com",
+                    "type": "text"
+                },
+                {
+                    "name": "reseau",
+                    "description": null,
+                    "annotations": {},
+                    "label": "reseau",
+                    "type": "text"
+                },
+                {
+                    "name": "mode",
+                    "description": null,
+                    "annotations": {},
+                    "label": "mode",
+                    "type": "text"
+                },
+                {
+                    "name": "train",
+                    "description": null,
+                    "annotations": {},
+                    "label": "train",
+                    "type": "int"
+                },
+                {
+                    "name": "rer",
+                    "description": null,
+                    "annotations": {},
+                    "label": "rer",
+                    "type": "int"
+                },
+                {
+                    "name": "metro",
+                    "description": null,
+                    "annotations": {},
+                    "label": "metro",
+                    "type": "int"
+                },
+                {
+                    "name": "tramway",
+                    "description": null,
+                    "annotations": {},
+                    "label": "tramway",
+                    "type": "int"
+                },
+                {
+                    "name": "val",
+                    "description": null,
+                    "annotations": {},
+                    "label": "val",
+                    "type": "int"
+                },
+                {
+                    "name": "exploitant",
+                    "description": null,
+                    "annotations": {},
+                    "label": "exploitant",
+                    "type": "text"
+                },
+                {
+                    "name": "date_mes",
+                    "description": null,
+                    "annotations": {},
+                    "label": "date_mes",
+                    "type": "datetime"
+                },
+                {
+                    "name": "idf",
+                    "description": null,
+                    "annotations": {},
+                    "label": "idf",
+                    "type": "int"
+                },
+                {
+                    "name": "extcode",
+                    "description": null,
+                    "annotations": {},
+                    "label": "extcode",
+                    "type": "text"
+                },
+                {
+                    "name": "indice_lig",
+                    "description": null,
+                    "annotations": {},
+                    "label": "indice_lig",
+                    "type": "text"
+                },
+                {
+                    "name": "shape_leng",
+                    "description": null,
+                    "annotations": {},
+                    "label": "SHAPE_Leng",
+                    "type": "double"
+                },
+                {
+                    "name": "colourweb_hexa",
+                    "description": null,
+                    "annotations": {},
+                    "label": "ColourWeb_hexa",
+                    "type": "text"
+                },
+                {
+                    "name": "colourprint_cmjn",
+                    "description": null,
+                    "annotations": {},
+                    "label": "ColourPrint_CMJN",
+                    "type": "text"
+                },
+                {
+                    "name": "picto_initial",
+                    "description": null,
+                    "annotations": {},
+                    "label": "picto_initial",
+                    "type": "text"
+                },
+                {
+                    "name": "picto_final",
+                    "description": null,
+                    "annotations": {},
+                    "label": "picto_final",
+                    "type": "text"
+                }
+            ],
+            "metas": {
+                "default": {
+                    "title": "[IDFM] - Trac\u00e9s du r\u00e9seau de transport ferr\u00e9 d'ile-de-France",
+                    "description": null,
+                    "theme": [
+                        "IDFM"
+                    ],
+                    "keyword": null,
+                    "license": null,
+                    "license_url": null,
+                    "language": "fr",
+                    "metadata_languages": [
+                        "fr"
+                    ],
+                    "timezone": null,
+                    "modified": "2024-07-30T22:00:48+00:00",
+                    "modified_updates_on_metadata_change": true,
+                    "modified_updates_on_data_change": true,
+                    "data_processed": "2024-07-30T22:00:48+00:00",
+                    "metadata_processed": "2024-07-30T22:00:48.774000+00:00",
+                    "geographic_reference": null,
+                    "geographic_reference_auto": false,
+                    "territory": null,
+                    "geometry_types": [
+                        "LineString"
+                    ],
+                    "bbox": {
+                        "type": "Feature",
+                        "geometry": {
+                            "coordinates": [
+                                [
+                                    [
+                                        3.512888727709651,
+                                        49.42620155867189
+                                    ],
+                                    [
+                                        1.149740545079112,
+                                        49.42620155867189
+                                    ],
+                                    [
+                                        1.149740545079112,
+                                        47.956778621301055
+                                    ],
+                                    [
+                                        3.512888727709651,
+                                        47.956778621301055
+                                    ],
+                                    [
+                                        3.512888727709651,
+                                        49.42620155867189
+                                    ]
+                                ]
+                            ],
+                            "type": "Polygon"
+                        },
+                        "properties": {}
+                    },
+                    "publisher": null,
+                    "references": null,
+                    "records_count": 1666,
+                    "attributions": null,
+                    "source_domain": null,
+                    "source_domain_title": null,
+                    "source_domain_address": null,
+                    "source_dataset": null,
+                    "shared_catalog": null,
+                    "federated": false,
+                    "oauth_scope": null,
+                    "parent_domain": null,
+                    "update_frequency": null
+                }
+            }
+        },
+        {
+            "visibility": "domain",
+            "dataset_id": "games_map_events_fr",
+            "dataset_uid": "da_jie9p1",
+            "has_records": true,
+            "features": [
+                "analyze",
+                "timeserie",
+                "geo"
+            ],
+            "attachments": [],
+            "alternative_exports": [],
+            "data_visible": true,
+            "fields": [
+                {
+                    "name": "project_id",
+                    "description": null,
+                    "annotations": {},
+                    "label": "\ufeffproject_id",
+                    "type": "text"
+                },
+                {
+                    "name": "event_id",
+                    "description": null,
+                    "annotations": {},
+                    "label": "event_id",
+                    "type": "text"
+                },
+                {
+                    "name": "event_slug",
+                    "description": null,
+                    "annotations": {},
+                    "label": "event_slug",
+                    "type": "text"
+                },
+                {
+                    "name": "title",
+                    "description": null,
+                    "annotations": {},
+                    "label": "title",
+                    "type": "text"
+                },
+                {
+                    "name": "category_id",
+                    "description": null,
+                    "annotations": {},
+                    "label": "category_id",
+                    "type": "text"
+                },
+                {
+                    "name": "category_code",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "category_code",
+                    "type": "text"
+                },
+                {
+                    "name": "subcategory_code",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "subcategory_code",
+                    "type": "text"
+                },
+                {
+                    "name": "photo_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "photo_link",
+                    "type": "text"
+                },
+                {
+                    "name": "organization_name",
+                    "description": null,
+                    "annotations": {},
+                    "label": "organization_name",
+                    "type": "text"
+                },
+                {
+                    "name": "description",
+                    "description": null,
+                    "annotations": {},
+                    "label": "description",
+                    "type": "text"
+                },
+                {
+                    "name": "starting_date",
+                    "description": null,
+                    "annotations": {
+                        "facetsort": "-count",
+                        "timeserie_precision": "hour"
+                    },
+                    "label": "starting_date",
+                    "type": "datetime"
+                },
+                {
+                    "name": "ending_date",
+                    "description": null,
+                    "annotations": {
+                        "facetsort": "-count"
+                    },
+                    "label": "ending_date",
+                    "type": "datetime"
+                },
+                {
+                    "name": "opening_times",
+                    "description": null,
+                    "annotations": {},
+                    "label": "opening_times",
+                    "type": "text"
+                },
+                {
+                    "name": "public",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "public",
+                    "type": "text"
+                },
+                {
+                    "name": "location",
+                    "description": null,
+                    "annotations": {},
+                    "label": "location",
+                    "type": "text"
+                },
+                {
+                    "name": "address",
+                    "description": null,
+                    "annotations": {},
+                    "label": "address",
+                    "type": "text"
+                },
+                {
+                    "name": "longitude",
+                    "description": null,
+                    "annotations": {},
+                    "label": "longitude",
+                    "type": "double"
+                },
+                {
+                    "name": "latitude",
+                    "description": null,
+                    "annotations": {},
+                    "label": "latitude",
+                    "type": "double"
+                },
+                {
+                    "name": "tarif",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "tarif",
+                    "type": "text"
+                },
+                {
+                    "name": "price_description",
+                    "description": null,
+                    "annotations": {},
+                    "label": "price_description",
+                    "type": "text"
+                },
+                {
+                    "name": "artistic_direction",
+                    "description": null,
+                    "annotations": {},
+                    "label": "artistic_direction",
+                    "type": "text"
+                },
+                {
+                    "name": "external_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "external_link",
+                    "type": "text"
+                },
+                {
+                    "name": "instagram_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "instagram_link",
+                    "type": "text"
+                },
+                {
+                    "name": "facebook_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "facebook_link",
+                    "type": "text"
+                },
+                {
+                    "name": "twitter_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "twitter_link",
+                    "type": "text"
+                },
+                {
+                    "name": "additional_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "additional_link",
+                    "type": "text"
+                },
+                {
+                    "name": "presenting_partner",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "presenting_partner",
+                    "type": "text"
+                },
+                {
+                    "name": "partner_logo_url",
+                    "description": null,
+                    "annotations": {},
+                    "label": "partner_logo_url",
+                    "type": "text"
+                },
+                {
+                    "name": "partner_redirection_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "partner_redirection_link",
+                    "type": "text"
+                },
+                {
+                    "name": "reservation",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "reservation",
+                    "type": "text"
+                },
+                {
+                    "name": "accessibility",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "accessibility",
+                    "type": "text"
+                },
+                {
+                    "name": "geolocation",
+                    "description": null,
+                    "annotations": {},
+                    "label": "geolocation",
+                    "type": "geo_point_2d"
+                },
+                {
+                    "name": "competition",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "competition",
+                    "type": "text"
+                }
+            ],
+            "metas": {
+                "default": {
+                    "title": "GEODATA - Ev\u00e8nements (FR)",
+                    "description": "<p><span style=\"font-weight: 700;\">Geodata - </span>Liste des \u00e9v\u00e9nements de Paris 2024 (FR)\u00a0\u00a0<br></p>",
+                    "theme": [
+                        "Geodata"
+                    ],
+                    "keyword": null,
+                    "license": "CC BY-NC-SA 4.0",
+                    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+                    "language": "fr",
+                    "metadata_languages": [
+                        "fr"
+                    ],
+                    "timezone": null,
+                    "modified": "2024-07-31T11:00:37+00:00",
+                    "modified_updates_on_metadata_change": true,
+                    "modified_updates_on_data_change": true,
+                    "data_processed": "2024-07-31T11:00:37+00:00",
+                    "metadata_processed": "2024-07-31T11:00:37.330000+00:00",
+                    "geographic_reference": null,
+                    "geographic_reference_auto": false,
+                    "territory": null,
+                    "geometry_types": [
+                        "Point"
+                    ],
+                    "bbox": {
+                        "type": "Feature",
+                        "geometry": {
+                            "coordinates": [
+                                [
+                                    [
+                                        166.46718816831708,
+                                        59.91979598533362
+                                    ],
+                                    [
+                                        -149.61582127958536,
+                                        59.91979598533362
+                                    ],
+                                    [
+                                        -149.61582127958536,
+                                        -22.22839767113328
+                                    ],
+                                    [
+                                        166.46718816831708,
+                                        -22.22839767113328
+                                    ],
+                                    [
+                                        166.46718816831708,
+                                        59.91979598533362
+                                    ]
+                                ]
+                            ],
+                            "type": "Polygon"
+                        },
+                        "properties": {}
+                    },
+                    "publisher": "Paris2024-DIG",
+                    "references": null,
+                    "records_count": 8350,
+                    "attributions": null,
+                    "source_domain": null,
+                    "source_domain_title": null,
+                    "source_domain_address": null,
+                    "source_dataset": null,
+                    "shared_catalog": null,
+                    "federated": false,
+                    "oauth_scope": null,
+                    "parent_domain": null,
+                    "update_frequency": null
+                }
+            }
+        },
+        {
+            "visibility": "domain",
+            "dataset_id": "games_map_events_en",
+            "dataset_uid": "da_1n5hsb",
+            "has_records": true,
+            "features": [
+                "analyze",
+                "timeserie",
+                "geo"
+            ],
+            "attachments": [],
+            "alternative_exports": [],
+            "data_visible": true,
+            "fields": [
+                {
+                    "name": "project_id",
+                    "description": null,
+                    "annotations": {},
+                    "label": "\ufeffproject_id",
+                    "type": "text"
+                },
+                {
+                    "name": "event_id",
+                    "description": null,
+                    "annotations": {},
+                    "label": "event_id",
+                    "type": "text"
+                },
+                {
+                    "name": "event_slug",
+                    "description": null,
+                    "annotations": {},
+                    "label": "event_slug",
+                    "type": "text"
+                },
+                {
+                    "name": "title",
+                    "description": null,
+                    "annotations": {},
+                    "label": "title",
+                    "type": "text"
+                },
+                {
+                    "name": "category_id",
+                    "description": null,
+                    "annotations": {},
+                    "label": "category_id",
+                    "type": "text"
+                },
+                {
+                    "name": "category_code",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "category_code",
+                    "type": "text"
+                },
+                {
+                    "name": "subcategory_code",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "subcategory_code",
+                    "type": "text"
+                },
+                {
+                    "name": "photo_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "photo_link",
+                    "type": "text"
+                },
+                {
+                    "name": "organization_name",
+                    "description": null,
+                    "annotations": {},
+                    "label": "organization_name",
+                    "type": "text"
+                },
+                {
+                    "name": "description",
+                    "description": null,
+                    "annotations": {},
+                    "label": "description",
+                    "type": "text"
+                },
+                {
+                    "name": "starting_date",
+                    "description": null,
+                    "annotations": {
+                        "facetsort": "-count"
+                    },
+                    "label": "starting_date",
+                    "type": "datetime"
+                },
+                {
+                    "name": "ending_date",
+                    "description": null,
+                    "annotations": {
+                        "facetsort": "-count"
+                    },
+                    "label": "ending_date",
+                    "type": "datetime"
+                },
+                {
+                    "name": "opening_times",
+                    "description": null,
+                    "annotations": {},
+                    "label": "opening_times",
+                    "type": "text"
+                },
+                {
+                    "name": "public",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "public",
+                    "type": "text"
+                },
+                {
+                    "name": "location",
+                    "description": null,
+                    "annotations": {},
+                    "label": "location",
+                    "type": "text"
+                },
+                {
+                    "name": "address",
+                    "description": null,
+                    "annotations": {},
+                    "label": "address",
+                    "type": "text"
+                },
+                {
+                    "name": "longitude",
+                    "description": null,
+                    "annotations": {},
+                    "label": "longitude",
+                    "type": "double"
+                },
+                {
+                    "name": "latitude",
+                    "description": null,
+                    "annotations": {},
+                    "label": "latitude",
+                    "type": "double"
+                },
+                {
+                    "name": "tarif",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "tarif",
+                    "type": "text"
+                },
+                {
+                    "name": "price_description",
+                    "description": null,
+                    "annotations": {},
+                    "label": "price_description",
+                    "type": "text"
+                },
+                {
+                    "name": "artistic_direction",
+                    "description": null,
+                    "annotations": {},
+                    "label": "artistic_direction",
+                    "type": "text"
+                },
+                {
+                    "name": "external_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "external_link",
+                    "type": "text"
+                },
+                {
+                    "name": "instagram_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "instagram_link",
+                    "type": "text"
+                },
+                {
+                    "name": "facebook_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "facebook_link",
+                    "type": "text"
+                },
+                {
+                    "name": "twitter_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "twitter_link",
+                    "type": "text"
+                },
+                {
+                    "name": "additional_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "additional_link",
+                    "type": "text"
+                },
+                {
+                    "name": "presenting_partner",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "presenting_partner",
+                    "type": "text"
+                },
+                {
+                    "name": "partner_logo_url",
+                    "description": null,
+                    "annotations": {},
+                    "label": "partner_logo_url",
+                    "type": "text"
+                },
+                {
+                    "name": "partner_redirection_link",
+                    "description": null,
+                    "annotations": {},
+                    "label": "partner_redirection_link",
+                    "type": "text"
+                },
+                {
+                    "name": "reservation",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "reservation",
+                    "type": "text"
+                },
+                {
+                    "name": "accessibility",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "accessibility",
+                    "type": "text"
+                },
+                {
+                    "name": "geolocation",
+                    "description": null,
+                    "annotations": {},
+                    "label": "geolocation",
+                    "type": "geo_point_2d"
+                },
+                {
+                    "name": "competition",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "competition",
+                    "type": "text"
+                }
+            ],
+            "metas": {
+                "default": {
+                    "title": "GEODATA - Ev\u00e8nements (EN)",
+                    "description": "<p><span style=\"font-weight: 700;\">Geodata -</span> Liste des \u00e9v\u00e9nements de Paris 2024 (EN)\u00a0\u00a0<br></p>",
+                    "theme": [
+                        "Geodata"
+                    ],
+                    "keyword": null,
+                    "license": "CC BY-NC-SA 4.0",
+                    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+                    "language": "fr",
+                    "metadata_languages": [
+                        "fr"
+                    ],
+                    "timezone": null,
+                    "modified": "2024-07-31T11:00:50+00:00",
+                    "modified_updates_on_metadata_change": true,
+                    "modified_updates_on_data_change": true,
+                    "data_processed": "2024-07-31T11:00:50+00:00",
+                    "metadata_processed": "2024-07-31T11:00:50.191000+00:00",
+                    "geographic_reference": null,
+                    "geographic_reference_auto": false,
+                    "territory": null,
+                    "geometry_types": [
+                        "Point"
+                    ],
+                    "bbox": {
+                        "type": "Feature",
+                        "geometry": {
+                            "coordinates": [
+                                [
+                                    [
+                                        166.46718816831708,
+                                        59.91979598533362
+                                    ],
+                                    [
+                                        -149.61582127958536,
+                                        59.91979598533362
+                                    ],
+                                    [
+                                        -149.61582127958536,
+                                        -22.22839767113328
+                                    ],
+                                    [
+                                        166.46718816831708,
+                                        -22.22839767113328
+                                    ],
+                                    [
+                                        166.46718816831708,
+                                        59.91979598533362
+                                    ]
+                                ]
+                            ],
+                            "type": "Polygon"
+                        },
+                        "properties": {}
+                    },
+                    "publisher": "Paris2024-DIG",
+                    "references": null,
+                    "records_count": 8350,
+                    "attributions": null,
+                    "source_domain": null,
+                    "source_domain_title": null,
+                    "source_domain_address": null,
+                    "source_dataset": null,
+                    "shared_catalog": null,
+                    "federated": false,
+                    "oauth_scope": null,
+                    "parent_domain": null,
+                    "update_frequency": null
+                }
+            }
+        },
+        {
+            "visibility": "domain",
+            "dataset_id": "paris-2024-sites-de-competition",
+            "dataset_uid": "da_fjvid4",
+            "has_records": true,
+            "features": [
+                "geo",
+                "analyze",
+                "timeserie"
+            ],
+            "attachments": [],
+            "alternative_exports": [],
+            "data_visible": true,
+            "fields": [
+                {
+                    "name": "code_site",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Code_Site",
+                    "type": "text"
+                },
+                {
+                    "name": "nom_site",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Nom_Site",
+                    "type": "text"
+                },
+                {
+                    "name": "category_id",
+                    "description": null,
+                    "annotations": {
+                        "facet": true
+                    },
+                    "label": "category_id",
+                    "type": "text"
+                },
+                {
+                    "name": "sports",
+                    "description": null,
+                    "annotations": {},
+                    "label": "Sports",
+                    "type": "text"
+                },
+                {
+                    "name": "start_date",
+                    "description": null,
+                    "annotations": {
+                        "facet": true,
+                        "timerangeFilter": true,
+                        "facetsort": "-count",
+                        "timeserie_precision": "day"
+                    },
+                    "label": "start_date",
+                    "type": "date"
+                },
+                {
+                    "name": "end_date",
+                    "description": null,
+                    "annotations": {
+                        "facet": true,
+                        "timerangeFilter": true,
+                        "facetsort": "-count",
+                        "timeserie_precision": "day"
+                    },
+                    "label": "end_date",
+                    "type": "date"
+                },
+                {
+                    "name": "adress",
+                    "description": null,
+                    "annotations": {},
+                    "label": "adress",
+                    "type": "text"
+                },
+                {
+                    "name": "latitude",
+                    "description": null,
+                    "annotations": {
+                        "facetsort": "-count"
+                    },
+                    "label": "latitude",
+                    "type": "text"
+                },
+                {
+                    "name": "longitude",
+                    "description": null,
+                    "annotations": {},
+                    "label": "longitude",
+                    "type": "text"
+                },
+                {
+                    "name": "point_geo",
+                    "description": null,
+                    "annotations": {},
+                    "label": "point_geo",
+                    "type": "geo_point_2d"
+                }
+            ],
+            "metas": {
+                "default": {
+                    "title": "Paris 2024 - Sites de comp\u00e9tition",
+                    "description": "<p>Ce jeu de donn\u00e9es recense tous les sites de comp\u00e9titions Olympiques et Paralympiques de Paris 2024 (nom, sports, dates, localisation).\u00a0</p>",
+                    "theme": [
+                        "Sports, Leisure"
+                    ],
+                    "keyword": [
+                        "PARIS2024",
+                        "Site de comp\u00e9titions des Jeux Olympiques et Paralympiques"
+                    ],
+                    "license": "Licence Ouverte v2.0",
+                    "license_url": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
+                    "language": "fr",
+                    "metadata_languages": [
+                        "fr"
+                    ],
+                    "timezone": "Europe/Paris",
+                    "modified": "2024-07-03T16:42:56+00:00",
+                    "modified_updates_on_metadata_change": true,
+                    "modified_updates_on_data_change": true,
+                    "data_processed": "2024-07-03T16:42:56+00:00",
+                    "metadata_processed": "2024-07-03T16:42:56.384000+00:00",
+                    "geographic_reference": [
+                        "world"
+                    ],
+                    "geographic_reference_auto": true,
+                    "territory": [
+                        "World"
+                    ],
+                    "geometry_types": [
+                        "Point"
+                    ],
+                    "bbox": {
+                        "type": "Feature",
+                        "geometry": {
+                            "coordinates": [
+                                [
+                                    [
+                                        7.192599959671497,
+                                        50.61190658714622
+                                    ],
+                                    [
+                                        -149.25208004191518,
+                                        50.61190658714622
+                                    ],
+                                    [
+                                        -149.25208004191518,
+                                        -17.86693001165986
+                                    ],
+                                    [
+                                        7.192599959671497,
+                                        -17.86693001165986
+                                    ],
+                                    [
+                                        7.192599959671497,
+                                        50.61190658714622
+                                    ]
+                                ]
+                            ],
+                            "type": "Polygon"
+                        },
+                        "properties": {}
+                    },
+                    "publisher": "Paris 2024",
+                    "references": "https://www.paris2024.org/fr/",
+                    "records_count": 63,
+                    "attributions": [
+                        "https://www.data.paris2024.org/fr/"
+                    ],
+                    "source_domain": null,
+                    "source_domain_title": null,
+                    "source_domain_address": null,
+                    "source_dataset": null,
+                    "shared_catalog": null,
+                    "federated": false,
+                    "oauth_scope": null,
+                    "parent_domain": null,
+                    "update_frequency": null
+                }
+            }
+        }
+    ]
+}
