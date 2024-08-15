@@ -1,4 +1,4 @@
-import dash 
+import dash, os 
 from dash import html, dcc, Output, Input, dash_table, callback_context, ALL
 from data_proc import dfs, medal_tally, medal_tally_heat, ath, medal_tally_bar 
 from plot_fun import olympic_hosts_map, medal_map_figure, medal_heatmap_figure, gauge_figure, empty_figure, medal_bar_figure
@@ -79,6 +79,13 @@ def create_main_layout():
         dcc.Dropdown(
             id="slct_game",
             options=[{"label": "Select olympic Game", "value": "All"}] + [{"label": game, "value": game} for game in games],
+                      ),
+            );
+
+
+
+
+}
             multi=False,
             value="All",
             style={"flex": "0.8", "min-width": "160px", "margin-left": "1%", "color": "white", "backgroundColor": "#EECEB9"}
@@ -302,4 +309,4 @@ def update_medal_bar_figure(sport, game, sex, season):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=True, host="0.0.0.0", port=int(os.environ.get("Port", 8080)))
