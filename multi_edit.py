@@ -1,4 +1,4 @@
-import dash 
+import dash, os 
 from dash import html, dcc, Output, Input, dash_table, callback_context, ALL
 from data_proc import dfs, medal_tally, medal_tally_heat, ath, medal_tally_bar 
 from plot_fun import olympic_hosts_map, medal_map_figure, medal_heatmap_figure, gauge_figure, empty_figure, medal_bar_figure
@@ -304,4 +304,4 @@ def update_medal_bar_figure(sport, game, sex, season, country):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(host="0.0.0.0", port=int(os.environ.get("PORT", 8050)))
