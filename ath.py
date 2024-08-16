@@ -83,8 +83,8 @@ def create_app2_layout():
                         style_cell={"minwidth": "80px", "whiteSpace": "normal", "textOverflow": "ellipsis"},
                         style_cell_conditional=[
                             {'if': {'column_id': 'Platzierung'}, 'width': '10%'},
-                            {'if': {'column_id': 'Athlete'}, 'width': '30%'},
-                            {'if': {'column_id': 'Games Participations'}, 'width': '15%'},
+                            {'if': {'column_id': 'Athlete'}, 'width': '35%'},
+                            {'if': {'column_id': 'Games Participations'}, 'width': '10%'},
                             {'if': {'column_id': 'Gold'}, 'width': '15%', "backgroundColor": "#FFD700"},
                             {'if': {'column_id': 'Silber'}, 'width': '15%'},
                             {'if': {'column_id': 'Bronze'}, 'width': '15%'}],

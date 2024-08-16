@@ -1,4 +1,4 @@
-import dash, os 
+import dash 
 from dash import html, dcc, Output, Input, dash_table, callback_context, ALL
 from data_proc import dfs, medal_tally, medal_tally_heat, ath, medal_tally_bar 
 from plot_fun import olympic_hosts_map, medal_map_figure, medal_heatmap_figure, gauge_figure, empty_figure, medal_bar_figure
@@ -79,13 +79,6 @@ def create_main_layout():
         dcc.Dropdown(
             id="slct_game",
             options=[{"label": "Select olympic Game", "value": "All"}] + [{"label": game, "value": game} for game in games],
-                      ),
-            );
-
-
-
-
-}
             multi=False,
             value="All",
             style={"flex": "0.8", "min-width": "160px", "margin-left": "1%", "color": "white", "backgroundColor": "#EECEB9"}
@@ -167,10 +160,11 @@ def update_graph(option_slct, game):
     [Input(component_id='slct_sport', component_property='value'),
      Input(component_id='slct_game', component_property='value'),
      Input(component_id="slct_sex", component_property="value"),
-     Input(component_id="slct_game_season", component_property="value")] 
+     Input(component_id="slct_game_season", component_property="value"),
+     Input(component_id="slct_country", component_property="value")] 
         )
-def update_medal_table(selected_sport, selected_game, selected_sex, selected_season):
-     filtered_df = medal_tally(df2, sport=selected_sport, game=selected_game, sex=selected_sex, season=selected_season)
+def update_medal_table(selected_sport, selected_game, selected_sex, selected_season, selected_country):
+     filtered_df = medal_tally(df2, sport=selected_sport, game=selected_game, sex=selected_sex, season=selected_season, country=selected_country)
      return filtered_df.to_dict("records")
 
 @app.callback(
@@ -178,12 +172,13 @@ def update_medal_table(selected_sport, selected_game, selected_sex, selected_sea
         [Input(component_id='slct_sport', component_property='value'),
          Input(component_id='slct_game', component_property='value'),
          Input(component_id="slct_sex", component_property="value"),
-         Input(component_id="slct_game_season", component_property="value")] 
+         Input(component_id="slct_game_season", component_property="value"),
+         Input(component_id="slct_country", component_property="value")] 
         )
 
-def update_medal_map(sport, game, sex, season):
+def update_medal_map(sport, game, sex, season, country):
 
-    medal_tally_map = medal_tally(df2, sport=sport, game=game, sex=sex, season=season)
+    medal_tally_map = medal_tally(df2, sport=sport, game=game, sex=sex, season=season, country=country)
 
     fig = medal_map_figure(medal_tally_map)
 
@@ -297,11 +292,11 @@ def update_gauche_figure(ath_name):
         [Input(component_id='slct_sport', component_property='value'),
          Input(component_id='slct_game', component_property='value'),
          Input(component_id="slct_sex", component_property="value"),
-         Input(component_id="slct_game_season", component_property="value")]
-        )
+         Input(component_id="slct_game_season", component_property="value"),
+         Input(component_id="slct_country", component_property="value")])
 
-def update_medal_bar_figure(sport, game, sex, season):
-    medal_df = medal_tally_bar(df2, sport=sport, game=game, sex=sex, season=season)
+def update_medal_bar_figure(sport, game, sex, season, country):
+    medal_df = medal_tally_bar(df2, sport=sport, game=game, sex=sex, season=season, country=country)
 
     fig = medal_bar_figure(medal_df)
 
@@ -309,4 +304,4 @@ def update_medal_bar_figure(sport, game, sex, season):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True, host="0.0.0.0", port=int(os.environ.get("Port", 8080)))
+    app.run_server(debug=True)

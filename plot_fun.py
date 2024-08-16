@@ -1,9 +1,11 @@
 import plotly.express as px
 import plotly.graph_objects as go
+from plotly.graph_objs.layout import hoverlabel
 import plotly.io as pio
 from functools import reduce
 from turfpy.measurement import bbox
 from dash import html
+import pandas as pd
 
 color_palette = ["#c3abdb", "#6d16c4"]   #FEFBD8, "#EECEB9", "#ccb541", "#BB9AB1", "#987D9A"
 heat_color_palette = ["#E3A5C7", "#B692C2", "#694F8E"]
@@ -105,11 +107,23 @@ def medal_map_figure(df2):
     return fig
 
 def medal_heatmap_figure(medal_heat):
+    hover_text = medal_heat.apply(
+        lambda row: [f"{row['country_name']}:\n{row['Gold']} Gold", 
+                     f"{row['country_name']}:\n{row['Silber']} Silber", 
+                     f"{row['country_name']}:\n{row['Bronze']} Bronze"], axis=1)
+
+    hover_text = hover_text.apply(pd.Series).values.T
+
+
+
+
     fig = go.Figure(go.Heatmap(
-        z=medal_heat[["Gold", "Silber", "Bronze"]].values.T,
+        z=medal_heat[["Gold_normalized", "Silber_normalized", "Bronze_normalized"]].values.T,
         x=medal_heat["country_3_letter_code"],
         y=["Gold", "Silber", "Bronze"],
         colorscale=heat_color_palette,
+        text=hover_text,
+        hovertemplate= "<b>%{text}</b><extra></extra>" 
         ))
     fig.update_layout(paper_bgcolor="#FEFBD8",
                       title_font=dict(size=24, color="black", family="Sans-serif"),
@@ -131,6 +145,9 @@ def pie_ath_figure(ath):
 
     fig.update_layout(paper_bgcolor='#BB9AB1',
                       plot_bgcolor='#BB9AB1')
+
+    fig.update_traces(hovertemplate="<b>%{label}: %{value:.2f}%</b><extra></extra>"
+                      )
     return fig
 
 
@@ -243,17 +260,30 @@ def empty_figure(message):
 
 def medal_bar_figure(df2):
 
-    df_melted = df2.melt(id_vars=["country_3_letter_code"], value_vars=["Bronze", "Silber", "Gold"],
+    df_melted = df2.melt(id_vars=["country_3_letter_code", "country_name"], value_vars=["Bronze", "Silber", "Gold"],
                              var_name="Medal", value_name="Count")
 
     fig = px.bar(df_melted, 
                  x="country_3_letter_code",
                  y="Count",
                  color="Medal",
-                 color_discrete_map={"Gold": heat_color_palette[2], "Silber": heat_color_palette[1], "Bronze": heat_color_palette[0]}
+                 color_discrete_map={"Gold": heat_color_palette[2], "Silber": heat_color_palette[1], "Bronze": heat_color_palette[0]},
+                 hover_data={"Medal": True,
+                             "country_name": True,
+                             "Count": True,
+                             "country_3_letter_code": False
+                             }
                  )
 
     fig.update_xaxes(title_text="")
+
+    fig.update_traces(hovertemplate="<b>Medaille:</b> %{customdata[0]}<br>" +
+                                      "<b>Land:</b> %{customdata[1]}<br>" +
+                                      "<b>Anzahl:</b> %{y}",
+                      hoverlabel=dict(
+                          font_color="white"
+                          ))
+
 
     return fig
 

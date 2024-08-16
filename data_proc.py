@@ -89,7 +89,10 @@ def dfs():
 
     return df, df2
 
-def medal_tally(df2, season=None, sport=None, game=None, sex=None):
+def medal_tally(df2, country=None, season=None, sport=None, game=None, sex=None):
+    if country != "All":
+        df2 = df2[df2["country_name"] == country]
+
     if season != "All":
         df2 = df2[df2["game_season"] == season]
 
@@ -133,9 +136,9 @@ def medal_tally_heat(df2, country=None, season=None, sport=None, game=None, sex=
     max_Silber = medal_tally_table["Silber"].max() 
     max_Bronze = medal_tally_table["Bronze"].max() 
 
-    medal_tally_table["Gold"] = medal_tally_table["Gold"]/max_Gold
-    medal_tally_table["Silber"] = medal_tally_table["Silber"]/max_Silber
-    medal_tally_table["Bronze"] = medal_tally_table["Bronze"]/max_Bronze
+    medal_tally_table["Gold_normalized"] = medal_tally_table["Gold"]/max_Gold if max_Gold > 0 else 0
+    medal_tally_table["Silber_normalized"] = medal_tally_table["Silber"]/max_Silber if max_Silber > 0 else 0
+    medal_tally_table["Bronze_normalized"] = medal_tally_table["Bronze"]/max_Bronze if max_Bronze > 0 else 0
 
     medal_tally_table["Total"] = medal_tally_table["Gold"] + medal_tally_table["Silber"] + medal_tally_table["Bronze"]
     medal_tally_table = medal_tally_table.sort_values(by="Gold", ascending=False).reset_index()
@@ -196,7 +199,10 @@ def ath_med(ath):
 
     return df
 
-def medal_tally_bar(df2, season=None, sport=None, game=None, sex=None):
+def medal_tally_bar(df2, season=None, sport=None, game=None, sex=None, country=None):
+    if country != "All":
+        df2 = df2[df2["country_name"] == country]
+
     if season != "All":
         df2 = df2[df2["game_season"] == season]
 
@@ -209,7 +215,7 @@ def medal_tally_bar(df2, season=None, sport=None, game=None, sex=None):
     if sex != "All":
         df2 = df2[df2["event_gender"] == sex]
 
-    medal_tally_table = df2.groupby("country_3_letter_code").sum()[["Gold", "Silber", "Bronze"]] 
+    medal_tally_table = df2.groupby(["country_3_letter_code", "country_name"]).sum()[["Gold", "Silber", "Bronze"]] 
     medal_tally_table["Total"] = medal_tally_table["Gold"] + medal_tally_table["Silber"] + medal_tally_table["Bronze"]
     medal_tally_table = medal_tally_table.sort_values(by="Total", ascending=False).reset_index()
     medal_tally_table["Platzierung"] = medal_tally_table.index + 1
