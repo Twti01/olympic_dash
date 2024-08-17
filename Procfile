@@ -1,1 +1,1 @@
-web: gunicorn application:server
+web: python3 multi_edit.py
