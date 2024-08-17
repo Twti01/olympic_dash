@@ -62,7 +62,7 @@ def olympic_hosts_map(df, season, game):
 
     fig.update_layout(
             autosize=True,
-            margin=dict(l=10, r=0, t=0, b=0))
+            margin=dict(l=0, r=0, t=0, b=0))
 
     return fig
 
@@ -125,7 +125,7 @@ def medal_heatmap_figure(medal_heat):
         ))
     fig.update_layout(paper_bgcolor="#FEFBD8",
                       margin=dict(l=60, r=10, b=60, t=20),
-                      title_font=dict(size=12, color="black", family="Sans-serif")
+                      title_font=dict(size=4, color="black", family="Sans-serif")
                       )
     return fig
 

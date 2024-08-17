@@ -1,4 +1,4 @@
-import dash, os
+import dash, os 
 from dash import html, dcc, Output, Input, dash_table, callback_context, ALL
 from data_proc import dfs, medal_tally, medal_tally_heat, ath, medal_tally_bar 
 from plot_fun import olympic_hosts_map, medal_map_figure, medal_heatmap_figure, gauge_figure, empty_figure, medal_bar_figure
@@ -123,7 +123,7 @@ def create_main_layout():
                     {"if": {"column_id": "Bronze"}, "backgroundColor": "#E3A5C7"}
                     ]
             )
-            ], style={"width": "45%", "display": "inline-block","flex-wrap": "wrap", "vertical-align": "top", "margin-left": "1%", "margin-top": "20px", "backgroundColor": "#FEFBD8"}),
+            ], style={"width": "45%", "display": "inline-block","overflow": "hidden", "vertical-align": "top", "margin-left": "1%", "margin-top": "20px", "backgroundColor": "#FEFBD8"}),
 
         html.Div([
             dcc.Graph(id="medal_map", figure={}, style={"width": "100%", "display": "block", "margin-top": "1%", "height": "50vh"}),
@@ -132,12 +132,12 @@ def create_main_layout():
 
     html.Div([
         html.Div([
-            dcc.Graph(id="medal_heat", figure={}, style={"width": "100%", "display": "block", "vertical-align": "top", "height": "26vh", "margin-top": "5%"})
+            dcc.Graph(id="medal_heat", figure={}, style={"width": "100%", "display": "block", "vertical-align": "top", "height": "27vh", "margin-top": "6%", "min-height": "200px"})
             ], style={"width": "36%", "height": "48vh","display": "inline-block", "vertical-align": "top", "margin-left": "1%", "backgroundColor": "#FEFBD8"}),
 
         html.Div([
-            dcc.Graph(id='olympic_hosts', figure={}, style={"width": "30%", "height": "32vh", "display": "inline-block", "vertical-align": "top", "margin-right": "6%"}),
-            dcc.Graph(id='medal_bar', figure={}, style={"width": "64%", "height": "32vh", "display": "inline-block", "vertical-align": "top"})
+            dcc.Graph(id='olympic_hosts', figure={}, style={"width": "30%", "height": "32vh", "display": "inline-block", "vertical-align": "top", "margin-right": "6%", "bottom": "10"}),
+            dcc.Graph(id='medal_bar', figure={}, style={"width": "64%", "height": "32vh", "display": "inline-block", "vertical-align": "top", "min-height": "250px"})
         ], style={"width": "63%", "display": "inline-block", "vertical-align": "top", "backgroundColor": "#FEFBD8", "margin-top": "5px", "margin-left": "2%"})
     ], style={"display": "flex", "justify-content": "space-between", "height": "40vh"})
 ])
