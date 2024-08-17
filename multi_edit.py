@@ -1,4 +1,4 @@
-import dash, os 
+import dash 
 from dash import html, dcc, Output, Input, dash_table, callback_context, ALL
 from data_proc import dfs, medal_tally, medal_tally_heat, ath, medal_tally_bar 
 from plot_fun import olympic_hosts_map, medal_map_figure, medal_heatmap_figure, gauge_figure, empty_figure, medal_bar_figure
@@ -132,8 +132,8 @@ def create_main_layout():
 
     html.Div([
         html.Div([
-            dcc.Graph(id="medal_heat", figure={}, style={"width": "100%", "display": "block", "vertical-align": "top", "height": "32vh"})
-            ], style={"width": "36%", "height": "32vh","display": "inline-block", "vertical-align": "top", "margin-left": "1%", "backgroundColor": "#FEFBD8"}),
+            dcc.Graph(id="medal_heat", figure={}, style={"width": "100%", "display": "block", "vertical-align": "top", "height": "26vh", "margin-top": "5%"})
+            ], style={"width": "36%", "height": "48vh","display": "inline-block", "vertical-align": "top", "margin-left": "1%", "backgroundColor": "#FEFBD8"}),
 
         html.Div([
             dcc.Graph(id='olympic_hosts', figure={}, style={"width": "30%", "height": "32vh", "display": "inline-block", "vertical-align": "top", "margin-right": "6%"}),
@@ -304,4 +304,4 @@ def update_medal_bar_figure(sport, game, sex, season, country):
 
 
 if __name__ == "__main__":
-    app.run_server(host="0.0.0.0", port=8080, debug=True)
+    app.run_server(debug=True)
