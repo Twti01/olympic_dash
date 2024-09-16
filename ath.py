@@ -20,17 +20,22 @@ def create_app2_layout():
                     "Olympic Games",
                     style={"display": "inline-block", "fontSize": "50px", 'color': 'black', 'fontWeight': 'bold', "width": "80%", "margin-top": "36px", "margin-left": "1%"}
                 ),
+                 html.Div([
+                    html.P("Autor: David Lube", style={"line-height": "8px"}),
+                    html.P("Datenquelle: https://olympics.com/ (Stand: 12.04.2022)", style={"line-height": "8px"}),
+                    html.P("Erstellt am 03.08.2024", style={"line-height": "8px"})], 
+                    style= {"display": "inline-block", "color": "black", "fontSize": "12px", "width": "26%"}),
                 html.Div(
                     dcc.Link(
                         html.Button(
                             "Go to Main Dashboard",
                             id="home-page-button",
                             style={
-                                "fontSize": "20px", "height": "40px", "backgroundColor": "#EECEB9", "border": "none", "border-radius": "30px", "cursor": "pointer", "fontWeight": "bold"
+                                "fontSize": "20px", "height": "40px", "backgroundColor": "#EECEB9", "float": "right","border": "none", "border-radius": "30px", "cursor": "pointer", "fontWeight": "bold"
                             }
                         ), href="/"
                     ),
-                    style={"float": "right", "width": "12%", "margin-right": "1%"}
+                    style={"float": "right", "vertical-align": "top", "width": "20%", "margin-right": "1%"}
                 )
             ], style={
                 "display": "flex", 'backgroundColor': '#BB9AB1', "alignItems": "center", "justifyContent": "space-between", "width": "100%", "height": "60px"}

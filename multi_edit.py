@@ -1,4 +1,4 @@
-import dash, os 
+import dash 
 from dash import html, dcc, Output, Input, dash_table, callback_context, ALL
 from data_proc import dfs, medal_tally, medal_tally_heat, ath, medal_tally_bar 
 from plot_fun import olympic_hosts_map, medal_map_figure, medal_heatmap_figure, gauge_figure, empty_figure, medal_bar_figure
@@ -47,6 +47,10 @@ def create_main_layout():
 
     html.Div([
         html.H1("Olympic Games", style={"display": "inline-block", "fontSize": "50px", 'color': 'black', 'fontWeight': 'bold', "margin-bottom": "30px", 'height': "60px", "width": "80%", "margin-left": "1%"}),
+        html.Div([html.P("Autor: David Lube", style={"line-height": "8px"}),
+                  html.P("Datenquelle: https://olympics.com/ (Stand: 12.04.2022)", style={"line-height": "8px"}),
+                  html.P("Erstellt am 03.08.2024", style={"line-height": "8px"})], 
+                 style= {"display": "inline-block", "color": "black", "fontSize": "12px", "width": "26%"}),
         html.Div(
             dcc.Link(
                 html.Button(
@@ -304,4 +308,4 @@ def update_medal_bar_figure(sport, game, sex, season, country):
 
 
 if __name__ == "__main__":
-    app.run_server(host="0.0.0.0", port=int(os.environ.get("PORT", 8050)))
+    app.run_server(debug=True)
