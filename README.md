@@ -1,6 +1,6 @@
-#Schritte zum Selbsteinrichten  
+# Schritte zum Selbsteinrichten  
 
-##Vorbereitung
+## Vorbereitung
 Bitte in das Terminal gehen. Es wird wird das Ausführen des Programmes Python benötigt. Im besten Fall mit der Version 3.12.5 oder neuer. Es sollte aber auch mit älteren Versionen funktionieren.  
 
 1. Ein virtuelles python environment erstellen und aktivieren:
@@ -14,7 +14,7 @@ source olympic_venv/bin/activate
 pip install -r requirements.txt
 ```
 
-##Ausführen
+## Ausführen
 
 Der folgende Befehl startet das Dashboard.
 ```bash
