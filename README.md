@@ -20,6 +20,6 @@ Der folgende Befehl startet das Dashboard.
 ```bash
 python3 multi_edit.py
 ```
-Das Dashboard ist nun unter zwei Adressen erreichbar auf: http://127.0.0.1:8050 und auf der vergegebenen ip-Adresse des Gerätes http://<lokale ip>:8050
+Das Dashboard ist nun unter zwei Adressen erreichbar auf: http://127.0.0.1:8050 und auf der vergegebenen ip-Adresse des Gerätes http://<lokaleip>:8050
 Zum Beenden des Programmes strg+c drücken.
 
