@@ -1,7 +1,7 @@
 # Schritte zum Selbsteinrichten  
 
 ## Vorbereitung
-Bitte in das Terminal gehen. Es wird wird das Ausführen des Programmes Python benötigt. Im besten Fall mit der Version 3.12.5 oder neuer. Es sollte aber auch mit älteren Versionen funktionieren.  
+Bitte in das Terminal gehen. Es wird wird zum Ausführen des Programmes Python benötigt. Im besten Fall mit der Version 3.12.5 oder neuer. Es sollte aber auch mit älteren Versionen funktionieren.  
 
 1. Ein virtuelles python environment erstellen und aktivieren:
 ```bash
