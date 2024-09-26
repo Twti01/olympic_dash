@@ -5,7 +5,7 @@ Bitte das Terminal öffnen und in das Verzeichnis, wohin die Dateien heruntergel
 
 1. Ein virtuelles python environment erstellen und aktivieren:
 ```bash
-python3 -m venv olymp_venv
+python3 -m venv olympic_venv
 source olympic_venv/bin/activate
 ```
 
