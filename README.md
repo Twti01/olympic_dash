@@ -4,9 +4,16 @@
 Bitte das Terminal öffnen und in das Verzeichnis, wohin die Dateien heruntergeladen wurden, gehen. Es wird wird zum Ausführen des Programmes Python benötigt. Im besten Fall mit der Version 3.12.5 oder neuer. Es sollte aber auch mit älteren Versionen funktionieren.  
 
 1. Ein virtuelles python environment erstellen und aktivieren:
+
+für Linux:
 ```bash
 python3 -m venv olympic_venv
 source olympic_venv/bin/activate
+```
+für Windows (Powershell):
+```bash
+python -m venv olympic_venv
+.\olympic_venv\Scripts\Activate
 ```
 
 2. Die python packages installieren:
